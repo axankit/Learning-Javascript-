@@ -38,27 +38,27 @@ because in the situatuion like these
 we cant excess them by using first way as syntax not allowed
   
 */
-// console.log(first);
-// console.log(first["key"])
+console.log(first.key);
+console.log(first["key"])
 
 /* 
   symbol declare in object 
 
   when we need to declare key as symbol
 
-  const mysign=Symbol("kuch bhi")
-  [mysign]:"kuch bhi",
+  const myskills=Symbol("Javascript")
+  [myskill]:"Full stack developer",
 
   we call them by only using
- console.log(second[mysign])
+ console.log(second[myskill])
    
 */
-const mysign = Symbol("kuch bhi");
+const myskills = Symbol("Javascript");
 
 const second = {
   key: "value",
   "full name": "Ankit Ranjan",
-  [mysign]: "kuch bhi",
+  [myskills]: "Full stack developer",
   fun: Symbol("excited"),
   learning: "Javascript",
 };
