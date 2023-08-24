@@ -15,6 +15,9 @@ Benefits of using this
 
 console.log(this) inside the normal function and arrow function Output is different
 
+Conclusion:- We just explored and get aware about this keyword 
+as we further we learn in more detail.
+
 
 
 */
@@ -42,6 +45,7 @@ shop.greet()
 
 */
 
+/* 
 function chai(){
      let user="Ankit"
      console.log(this)
@@ -57,3 +61,46 @@ let tea=() => {
      console.log(this)
 }
 tea()
+
+*/
+
+// ! Arrow function
+
+/* Need to discuss on this later
+
+function multiply(num1,...num2){
+  console.log(num2)
+  return num1*num2
+}
+
+console.log(multiply(2,3,3));
+
+let arr=[1,2]
+let nu=[2]
+console.log(arr*nu)
+
+*/
+
+function multiply(num1,num2){
+  return num1*num2
+}
+
+const multi=()=>{
+
+}
+
+const add=(num1,num2)=> num1*num2
+
+const subtract=(num1,num2)=> (num1*num2)
+
+const details=() => ({username:"Ankit Ranjan"})
+
+console.log(details())
+
+/* 
+Arrow function
+
+Implicit return we dont need to write return
+Explicit return we have write return
+
+*/
