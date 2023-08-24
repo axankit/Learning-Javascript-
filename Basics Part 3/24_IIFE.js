@@ -39,6 +39,11 @@ Named IIFE AND Simple IIFE
 
 4. point to be noted when you write two IIFE in same file
 
+Chat GPT
+in most cases, when you write two functions one after the other without semicolons, JavaScript's Automatic Semicolon Insertion (ASI) will usually insert the necessary semicolons to separate the statements. This is why it typically works without semicolons in regular function declarations.
+
+However, the situation is slightly different with Immediately Invoked Function Expressions (IIFE). An IIFE is a function expression that's immediately executed. Since IIFE is considered a single expression, the JavaScript parser might not handle the automatic semicolon insertion as expected.
+
 5. parameters in IIFE
 
 
