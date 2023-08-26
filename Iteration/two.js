@@ -1,0 +1,5 @@
+/*
+while loop
+do while loop 
+first execute the code then check condition
+*/

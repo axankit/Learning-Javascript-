@@ -79,6 +79,7 @@ We also learn about something intresting the quirky of behaviour of javascript
 */
 
 /* Nullish coalescing operator (??)
+TODO Explore it
 we will learn about more in detail later 
 
 Null or Undefined ?? anything ?? something
