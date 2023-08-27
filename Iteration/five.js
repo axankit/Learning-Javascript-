@@ -7,6 +7,15 @@
      
 // });
 
+Learning=["Responsive website","In-depth Javascript","Confident in React js ","Confident in Typescript","MERN Stack"]
+
+Learning.forEach((element) => {
+     console.log(element)
+     
+});
+
+
+/*
 let mycoding=[
      {
           language:"Python",
@@ -27,3 +36,4 @@ let mycoding=[
 mycoding.forEach( (item) => {
     console.log(item.language)
 })
+*/
