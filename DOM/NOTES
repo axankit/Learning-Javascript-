@@ -1,0 +1,20 @@
+DOM MANIPULATON
+
+1. Window object and Global object
+2. Node
+3. HTML collection is not an array. but they have some common thing. As a result we can use some property of array.
+HTML collection and Node list is different.
+
+
+.innerText ,innerHTML AND textcontent
+
+innertext :- text which is only visible on screen
+
+textcontent :- text also appears which may be hidden by any css property.
+
+innerHTML :- text with HTML like 
+[ here to learn about DOM Manipulation <span style="display: none;">Ankit its your choice</span>' ]
+
+queryselector is the most using. To use queryselector better you need to have good understanding of CSSselector 
+
+We can do query further if we stored in variable 
