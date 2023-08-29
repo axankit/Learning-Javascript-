@@ -19,7 +19,10 @@
   </head>
   <body>
     <div class="container">
-      <h3 class="heading" id="title">here to learn about DOM Manipulation <span style="display: none;">Ankit its your choice</span></h3>
+      <h3 class="heading" id="title">
+        here to learn about DOM Manipulation
+        <span style="display: none">Ankit its your choice</span>
+      </h3>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
@@ -29,6 +32,67 @@
         <li>Three</li>
         <li>Four</li>
       </ul>
+
+      <div class="parent">
+        <!--  -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+      </div>
     </div>
   </body>
+  <script>
+    const parent = document.querySelector(".parent");
+
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[2].innerHTML);
+    // console.log(parent.children)
+
+    for (let index = 0; index < parent.children.length; index++) {
+      const element = parent.children[index].innerHTML;
+      console.log(element);
+    }
+
+    console.log("                     ");
+
+    console.log(parent.firstElementChild);
+    console.log(parent.lastElementChild);
+
+    const dayone = document.querySelector(".day");
+
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling);
+
+    console.log("Nodelist ", parent.childNodes);
+
+    console.log("                     ");
+
+    console.log("Creating a new element");
+
+    const div = document.createElement("div");
+
+    console.log(div);
+
+    div.className = "Jarvis";
+    div.id = Math.round(Math.random() * 10 + 1);
+
+    div.style.color = "orange";
+
+    div.setAttribute("title", "kya hua tera vada");
+
+    // div.innerText="Chai aur Javascript"
+
+    const add = document.createTextNode("Chai aur React JS")
+    div.appendChild(add);
+
+console.log(div)
+
+    document.body.appendChild(div);
+
+    // div.innerText="Chai aur Javascript"
+
+    console.log(div)
+  </script>
 </html>

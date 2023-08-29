@@ -17,4 +17,18 @@ innerHTML :- text with HTML like
 
 queryselector is the most using. To use queryselector better you need to have good understanding of CSSselector 
 
-We can do query further if we stored in variable 
+We can do query further if we stored in variable
+
+I would prefer to see code directly but basically 
+
+we learn about 
+by using parent element how we can access child Element and vice versa 
+
+After one line break Browser not count further line break as new nodes.
+
+
+Lecture 33
+Creating a new element 
+
+
+div.innerText its overwrite the text (replace)

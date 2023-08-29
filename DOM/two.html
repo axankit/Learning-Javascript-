@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DOM 34</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+
+     <div class="language">
+          <li>Javascript</li>
+     </div>
+</body>
+<script>
+
+function addlang(language){
+  const create=document.createElement("li")
+  create.innerHTML=`${language}`
+
+//   document.body.appendChild(create)
+document.querySelector(".language").appendChild(create)
+}
+
+addlang("React Js")
+addlang("TypeScript")
+
+// Now to make this more efficiency
+
+function addOptlang(language){
+  const create=document.createElement("li")
+//   create.innerHTML=`${language}`
+
+create.appendChild(document.createTextNode(language))
+
+  document.body.appendChild(create)
+}
+
+addOptlang("Responsive Design")
+
+
+// EDIT
+
+const editsecond=document.querySelector("li:nth-child(2)")
+// console.log(editsecond)
+const li=document.createElement("li")
+li.textContent="Mastery in Javascript and confident in React JS "
+
+// console.log(li)
+
+editsecond.replaceWith(li)
+
+</script>
+</html>
