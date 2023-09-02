@@ -1,0 +1,9 @@
+how to select and take value in form and from input 
+
+.value
+isNaN()
+
+Learn about the 
+
+e.defaultPrevented(); [ I observe this]
+e.preventDefault();
