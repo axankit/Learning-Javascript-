@@ -1,8 +1,54 @@
-Events:-
+# Events:-
 
-How to learn with Videos
+### How to learn with Videos
+
 1. Watch Videos carefully pause take Notes everything that you think need some more time on it.
 
-2. Do it yourself 
+2. Do it yourself
 3. Eplore About it.
 4. Conclusion
+
+# Observation 
+
+1. Javascript is language which execute line by line(sequential).
+   But has some execption
+
+one of them is events
+
+code of events execute only when certain activity happens.
+
+## Different approach for Events
+
+2. we can also put events in HTML( Inline ) which is not feasible at all specially when we build in scale.
+
+onclick="alert('herr0')"
+
+3. document.getElementById('owl').onclick = function(){
+alert("owl clicked")
+}
+
+4. attachEvent()
+5. jQuery - on
+
+## Event Object
+
+### Topics to explore, learn recommended by sir.
+
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+
+## Event Propogation
+
+About the third value which is false by default
+
+1. Event Bubbling (function as bottom to top)
+
+when its true
+
+2. Event Capturing (function as top to bottom)
+
+### stopPropagation
+### PreventDefault
