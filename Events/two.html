@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Timestamp Example</title>
+</head>
+<body>
+  <button id="myButton">Click me!</button>
+
+  <script>
+    function handleClick(event) {
+      const eventTimestamp = event.timeStamp; // Get the timestamp of the event
+      const eventDate = new Date(eventTimestamp); // Convert timestamp to a Date object
+      alert(`Event timestamp: ${eventTimestamp}\nEvent date: ${eventDate}`);
+    }
+
+    const myButton = document.getElementById('myButton');
+
+    // Attach the function to a click event
+    myButton.addEventListener('click', handleClick);
+  </script>
+</body>
+</html>
